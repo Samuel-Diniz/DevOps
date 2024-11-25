@@ -1,10 +1,21 @@
 # Desafio DevOps Junior
 
-## Passos para configurar o ambiente
 
-### Pré-requisitos
-- Docker e Docker Compose instalados
-- Python 3.8+ instalado (se for rodar localmente)
+Estrutura do Projeto
+
+Dockerfile: Define a configuração do container da aplicação.
+docker-compose.yml: Configura os serviços necessários para executar a aplicação (web e Nginx).
+scripts: Contém scripts Bash para automação do ambiente.
+README.md: Instruções detalhadas para configurar, rodar e testar a aplicação.
+Requisitos
+Ferramentas Utilizadas
+Docker: Para containerizar a aplicação e seus serviços.
+docker-compose: Para orquestrar os containers de forma fácil e eficiente.
+Nginx: Servidor web utilizado para servir a aplicação.
+Flask (Python): Framework utilizado para a criação da aplicação web.
+Pré-requisitos
+Docker e docker-compose instalados no ambiente.
+Git para versionamento de código e clonar o repositório
 
 ### Configurando o ambiente
 
