@@ -8,8 +8,10 @@ def home():
 
 @app.route("/health")
 def health():
-    return "OK", 200  # Resposta de sucesso para indicar que a aplicação está funcionando.
+    return "Status Helth Check com sucesso", 200 
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
+
 
