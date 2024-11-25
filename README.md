@@ -10,7 +10,7 @@
 
 1. Clone o repositório:
    ```bash
-   git clone https://seu-repo.git
+   git clone https://github.com/Samuel-Diniz/desafio-devops-junior.git
    cd desafio-devops-junior
 
 ### Executando o deploy da aplicação
