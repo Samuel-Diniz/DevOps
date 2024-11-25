@@ -8,29 +8,29 @@ Desafio Devops
 
 # Descrição
 
-O desafio consiste em criar um ambiente básico de deploy automatizado para uma aplicação web simples, utilizando ferramentas essenciais de DevOps, como Docker, Bash e Git.
+O desafio consiste em criar um ambiente básico para deploy automatizado de uma aplicação web simples, utilizando ferramentas essenciais de DevOps, como Docker, Bash e Git.
 
-Inicialmente deve ser clonado o repositorio conforma comando abaixo:
+Para começar, clone o repositório utilizando o comando abaixo:
 ```bash
 git clone https://github.com/Samuel-Diniz/DevOps
 ```
 
-Depois acesse o projeto de acordo comando abaixo:
+Em seguida, acesse o projeto utilizando o comando abaixo:
 ```bash
 cd DevOps/
 ```   
 
-Apos este execute o script conforme comando abaixo:
+Depois, execute o script utilizando o comando abaixo:
 ```bash
 bash scripts/start_application.sh 
 ```            
 
-Apos execucao do script com retorno "Health check bem-sucedido!" basta acessar a URL abaixo via browser.
+Após a execução do script, caso o retorno seja "Health check bem-sucedido!", basta acessar a URL abaixo no navegador:
 ```bash
 http://localhost/
 ```
 
-Apos execucao dos teste no site e concluir as validacoes, basta executar o script abaixo para interromper a aplicacao localmente.
+Após realizar os testes no site e concluir as validações, execute o script abaixo para interromper a aplicação localmente:
 ```bash
 bash scripts/stop_application.sh
 ```
