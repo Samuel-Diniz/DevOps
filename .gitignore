@@ -1,0 +1,37 @@
+# Arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ambiente virtual Python
+venv/
+.env/
+
+# Arquivos de dependências
+*.log
+*.pid
+
+# Arquivos temporários
+*.bak
+*.tmp
+*.swp
+
+# Arquivos de build do sistema
+dist/
+build/
+
+# Arquivos de compilação
+*.out
+*.o
+*.a
+
+# Arquivos gerados pelo Docker
+docker-compose.override.yml
+
+# Arquivos de configuração do Nginx
+nginx/*.log
