@@ -3,7 +3,8 @@ Desafio Devops
 
 # Requisitos
 
-- Docker (https://docs.docker.com/engine/install/)
+- Git (https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git)
+-  Docker (https://docs.docker.com/engine/install/)
 - Docker Compose (https://docs.docker.com/compose/install/standalone/)
 
 # Descrição
