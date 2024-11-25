@@ -1,15 +1,24 @@
-# Desafio DevOps Junior - Salaryfits
+# Desafio DevOps Junior
 
-## Visão Geral
-Este projeto implementa um ambiente automatizado para deploy de uma aplicação web simples utilizando Docker e Bash Script.
+## Passos para configurar o ambiente
 
-## Pré-requisitos
-- Docker
-- Docker Compose
-- Sistema Linux (VM, WSL ou máquina local)
+### Pré-requisitos
+- Docker e Docker Compose instalados
+- Python 3.8+ instalado (se for rodar localmente)
 
-## Como Executar
+### Configurando o ambiente
+
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/desafio-devops.git
-   cd desafio-devops
+   git clone https://seu-repo.git
+   cd desafio-devops-junior
+
+### Executando o deploy da aplicação
+
+Para verificar se todas as dependências estão instaladas e rodar a aplicação, execute o seguinte comando:
+
+```bash
+bash scripts/deploy.sh
+
+
+Isso vai garantir que o processo de verificação de dependências e o deploy da aplicação sejam executados de forma automatizada e sem complicação para quem for testar.
