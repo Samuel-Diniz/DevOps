@@ -1,8 +1,9 @@
 #!/bin/bash
 
+echo "Iniciando deploy do ambiente DevOps..."
+
 # Atualizar pacotes e instalar dependências essenciais
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y curl wget git ufw
+sudo apt update && sudo apt install -y curl wget git ufw
 
 # Instalar Docker
 if ! command -v docker &> /dev/null; then
@@ -11,7 +12,7 @@ if ! command -v docker &> /dev/null; then
     sudo sh get-docker.sh
     sudo usermod -aG docker $USER
 else
-    echo "Docker já instalado."
+    echo "Docker já está instalado."
 fi
 
 # Instalar Docker Compose
@@ -21,11 +22,12 @@ if ! command -v docker-compose &> /dev/null; then
          -o /usr/local/bin/docker-compose
     sudo chmod +x /usr/local/bin/docker-compose
 else
-    echo "Docker Compose já instalado."
+    echo "Docker Compose já está instalado."
 fi
 
 # Configuração de Firewall
+sudo ufw allow 22/tcp
 sudo ufw allow 80/tcp
 sudo ufw enable
 
-echo "Configuração concluída!"
+echo "Configuração concluída! Reinicie o terminal para aplicar permissões ao Docker."
