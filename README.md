@@ -1,24 +1,6 @@
 # Desafio-Devops
 Desafio Devops
 
-# Descrição das Decisões Tomadas no Processo
-
-1. **Tecnologias**: 
-   - Usei `Flask` para a aplicação e `Nginx` como proxy reverso.
-
-2. **Docker**: 
-   - Containerizei a aplicação com `Docker` e orquestrei com `Docker Compose`.
-
-3. **Automação**: 
-   - Criei scripts `Bash` para automatizar o deploy e o health check.
-
-4. **Dockerfile**: 
-   - Utilize multi-stage builds para otimizar a imagem.
-
-5. **Versionamento**: 
-   - O código foi versionado com `Git` e documentado no `README`.
-
-
 # Requisitos
 
 - Git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -53,6 +35,24 @@ Após realizar os testes no site e concluir as validações, execute o script ab
 ```bash
 bash scripts/stop_application.sh
 ```
+
+
+Descrição das Decisões Tomadas no Processo
+
+1. **Tecnologias**: 
+   - Usei `Flask` para a aplicação e `Nginx` como proxy reverso.
+
+2. **Docker**: 
+   - Containerizei a aplicação com `Docker` e orquestrei com `Docker Compose`.
+
+3. **Automação**: 
+   - Criei scripts `Bash` para automatizar o deploy e o health check.
+
+4. **Dockerfile**: 
+   - Utilize multi-stage builds para otimizar a imagem.
+
+5. **Versionamento**: 
+   - O código foi versionado com `Git` e documentado no `README`.
 
 
 
