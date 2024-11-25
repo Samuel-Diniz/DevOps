@@ -1,6 +1,3 @@
-# Desafio DevOps Junior
-
-
 Estrutura do Projeto
 
 Dockerfile: Define a configuração do container da aplicação.
@@ -21,9 +18,8 @@ Git para versionamento de código e clonar o repositório
 
 Clone este repositório para sua máquina local utilizando o comando:
 
-bash
-Copiar código
 git clone https://github.com/Samuel-Diniz/desafio-devops-junior.git
+
 2. Navegar até o Diretório do Projeto
 Acesse o diretório onde o repositório foi clonado:
 
